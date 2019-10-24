@@ -15,7 +15,7 @@ This **is not** a feature-complete client library (yet)! Instead it should be co
 1. go to https://dashboard.fiskaly.com, create an account and generate some test data and an API key + secret
 2. run `$ git submodule update --init` to obtain the pre-compiled SMA library
 3. run `$ npm install` for installing all build utilities
-4. open `src/example.html` and insert appropriate values for `apiKey` and `apiSecret` (obtained in step 1.)
+4. open `src/example.html` (see [src/example.html](https://github.com/fiskaly/fiskaly-kassensichv-client-js/blob/master/src/example.html#L7)) and insert appropriate values for `apiKey` and `apiSecret` (obtained in step 1.)
 5. run `$ npm start` for building the library and running a local HTTP server for testing
 6. open http://localhost:8080/example.html in your Web browser
 
